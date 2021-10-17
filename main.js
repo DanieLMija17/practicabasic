@@ -45,4 +45,13 @@ setInterval(function() {
     next();
 }, 10000)
 
+<!-- About-ME--!>
 ScrollReveal().reveal('.exp');
+
+/*----------------Finaliza logica de Hero Slider-------------------------------------*/
+/* ---------------Logica de correo------------------------------*/
+
+/* ---------------Finaliza Logica de correo---------------------*/
+
+ScrollReveal().reveal('.exp');
+

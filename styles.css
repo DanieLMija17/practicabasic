@@ -145,4 +145,144 @@ right: 10px;
     margin-bottom: 20px;
     color: #149f73;
     position: absolute;
+
   }
+  /*---Finaliza Hero de Imagenes---*/
+
+/*---Experiencia---*/
+
+.exp{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 0px 15px;
+}
+
+.exp img{
+    width: 100%;
+    height: 180px;;
+}
+ .exp h3{
+     font-size: 25px;
+    margin: 10px;
+    color: blueviolet;
+    
+ }
+
+ #cuadro{
+    border-right: 4px solid rgb(53, 4, 131);
+    border-left: 4px solid rgb(53, 4, 131);
+    background-color:rgb(84, 65, 114); opacity: 0.8;
+    border-top: 4px solid rgb(136, 123, 156);
+    border-bottom: 4px solid rgbrgb(136, 123, 156);
+ }
+ .exp a{
+     padding: 15px 5px;
+     text-transform: uppercase;
+     color: #f6f6f6;
+     display: inline-block;
+     font-weight: bold;
+ }
+
+    
+
+ .exp a:hover{
+     text-decoration: underline;
+ }
+ /*------Fin Experiencia--------*/
+ /*------About Me---------------*/
+
+ .about_m{
+    width: 100%;
+    background: url('/img/fondo.jpg') no-repeat center center/cover;
+    margin: 10px 20px;
+    
+ }
+ .about_m h2{
+     color:rgb(53, 4, 131);
+ }
+ .contenido{
+     
+     margin: 2px 4px;
+     font-size: 24px;
+     display: flex;
+     justify-content: flex-end;
+     
+ }
+ .contenido li{
+     color:#000000;
+ }
+ .about_m h4{
+     margin: 20px 10px;
+     color:rgb(7, 38, 95);
+     text-decoration: underline;
+    
+     
+ }
+ 
+ #foto_p{
+width: 25%;
+height: 25%;
+display: flex;
+align-items: center;
+align-items: flex-start;
+border-radius: 35%;
+box-shadow: tan;
+
+ }
+ /*------Final About Me---------------*/
+
+/*-------contactanos---*/
+
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+    background: rgba(255, 255, 255, 0.329);
+}
+
+.form_titulo{
+    text-align: center;
+    margin-top: o;
+    color: rgba(0,0,0,0.7);
+
+}
+.formulario_input,.formulario_label, .formulario_submit{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+.formulario_input{
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+.formulario_input:focus{
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+.formulario_input:focus + .formulario_label{
+    margin-top: -130px;
+}
+.formulario_label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0,2s;
+}
+.formulario_submit{
+    background: rgba(0,0,0,0.7);
+    columns: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+  }
+
