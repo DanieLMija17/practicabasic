@@ -45,17 +45,13 @@ setInterval(function() {
     next();
 }, 10000)
 
+<!-- About-ME--!>
 ScrollReveal().reveal('.exp');
 
 /*----------------Finaliza logica de Hero Slider-------------------------------------*/
 /* ---------------Logica de correo------------------------------*/
-var inputs = document.getElementsByClassName('formulario_input');
-for( var i=0; i<inputs.length; i++){
-    input[i].addEventListener('keyup',function(){
-        if(this.value.length=>1){
-            this.nextElementSibling.classList.add('fijar');
-        }
-    })
-}
 
 /* ---------------Finaliza Logica de correo---------------------*/
+
+ScrollReveal().reveal('.exp');
+
