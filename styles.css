@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000000;
+    color: #ffffff;
+    background-color: #342f2f;
+    background-color: #1d1b21;
+
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237f38f1' fill-opacity='0.24'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'PT Serif', serif;;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.sub_title{
+    margin: 15px 10px;
+    color:mediumslateblue;
+    border-bottom: 4px solid mediumslateblue;
+    justify-content: left;
+}
+/*---NAV BAR---*/
+
+.nav_b{
+    width: 90%;
+    margin: auto;
+    
+}       
+
+.nav-logo{
+width: 60px;
+margin-right: 40px;
+
+}
+
+.main-nav{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+    
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 15px;
+}
+.main-nav ul.nav-menu {
+    flex: 1;
+    margin-left: 10 px;
+    
+}
+.main-nav ul li a:hover{
+    border-bottom: 4px solid #190624;
+    border-top: 4px solid #190624;
+}
+.main-nav ul li a{
+    padding: 6px;
+}
+hr{
+    padding: 1px;
+    background-color: #616161;
+}
+/*---Finaliza Nav Bar---*/
+/*---Hero de Imagenes---*/
+.slider_block{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.slider_img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider{
+    display: flex;
+    width: 400%;
+    height: 800px;
+    margin-left: -100%;
+}
+.slider_i{
+    width: 100%;
+    height: 100%;
+}
+.slider_btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #888484;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30%;
+    cursor: pointer;
+    opacity: .5;
+}
+.slider_btn:hover{
+background: #c7c7c7;
+}
+.btn_r{
+right: 10px;
+}
+.btn_l{
+    left: 10px;
+}
+#presen_b {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  position: absolute;
+  
+}
+#presen_a {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #149f73;
+    position: absolute;
+  }
+  /*---Finaliza Hero de Imagenes---*/
+
+/*---Experiencia---*/
+
+.exp{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 0px 15px;
+}
+
+.exp img{
+    width: 100%;
+    height: 180px;;
+}
+ .exp h3{
+     font-size: 25px;
+    margin: 10px;
+    color: blueviolet;
+    
+ }
+
+ #cuadro{
+    border-right: 4px solid rgb(53, 4, 131);
+    border-left: 4px solid rgb(53, 4, 131);
+    background-color:rgb(84, 65, 114); opacity: 0.8;
+    border-top: 4px solid rgb(136, 123, 156);
+    border-bottom: 4px solid rgbrgb(136, 123, 156);
+ }
+ .exp a{
+     padding: 15px 5px;
+     text-transform: uppercase;
+     color: #f6f6f6;
+     display: inline-block;
+     font-weight: bold;
+ }
+
+    
+
+ .exp a:hover{
+     text-decoration: underline;
+ }
+ /*------Fin Experiencia--------*/
+ /*------About Me---------------*/
+
+ .about_m{
+    width: 100%;
+    background: url('/img/fondo.jpg') no-repeat center center/cover;
+    margin: 10px 20px;
+    
+ }
+ .about_m h2{
+     color:rgb(53, 4, 131);
+ }
+ .contenido{
+     
+     margin: 2px 4px;
+     font-size: 24px;
+     display: flex;
+     justify-content: flex-end;
+     
+ }
+ .contenido li{
+     color:#000000;
+ }
+ .about_m h4{
+     margin: 20px 10px;
+     color:rgb(7, 38, 95);
+     text-decoration: underline;
+    
+     
+ }
+ 
+ #foto_p{
+width: 25%;
+height: 25%;
+display: flex;
+align-items: center;
+align-items: flex-start;
+border-radius: 35%;
+box-shadow: tan;
+
+ }
+ /*------Final About Me---------------*/
+
+/*-------contactanos---*/
+
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+    background: rgba(255, 255, 255, 0.329);
+}
+
+.form_titulo{
+    text-align: center;
+    margin-top: o;
+    color: rgba(0,0,0,0.7);
+
+}
+.formulario_input,.formulario_label, .formulario_submit{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+.formulario_input{
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+.formulario_input:focus{
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+.formulario_input:focus + .formulario_label{
+    margin-top: -130px;
+}
+.formulario_label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0,2s;
+}
+.formulario_submit{
+    background: rgba(0,0,0,0.7);
+    columns: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
